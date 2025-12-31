@@ -20,3 +20,9 @@ class ChaiShop:
 
 class FancyChaiShop(ChaiShop):
     chai_cls=Masalachai
+
+shop=ChaiShop()
+fancy=FancyChaiShop()
+shop.serve()
+fancy.serve()
+fancy.chai.add_spices()
